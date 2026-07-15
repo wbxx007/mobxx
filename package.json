@@ -2,6 +2,10 @@
   "name": "moontv",
   "version": "0.1.0",
   "private": true,
+   "engines": {
+    "node": "20.x",
+    "pnpm": "10.x"
+},
   "scripts": {
     "dev": "pnpm gen:manifest && pnpm gen:runtime && next dev -H 0.0.0.0",
     "build": "pnpm gen:manifest && pnpm gen:runtime && next build",
